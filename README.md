@@ -11,30 +11,6 @@ The NPC’s head UI updates automatically, and emotions decay over time.
 
 ---
 
-## File Structure
-
-DynamicNPCEmotionSystem/
-│
-├── README.md
-├── LICENSE
-│
-├── src/
-│ ├── ServerScriptService/
-│ │ └── EmotionSystem.server.lua
-│ │
-│ ├── ReplicatedStorage/
-│ │ ├── EmotionModule.lua
-│ │ └── EmotionEvents.lua
-│ │
-│ └── StarterPlayer/
-│ └── StarterPlayerScripts/
-│ └── NPCEmotionClient.client.lua
-│
-└── npc_assets/
-└── ExampleNPC.rbxm
-
----
-
 ## 📥 Installation
 
 1. Put **EmotionSystem.server.lua** inside  
@@ -77,5 +53,28 @@ Emotions automatically decay after a short delay.
 ---
 
 ## 📄 License  
-MIT License – free to use in any project.
+
+MIT License
+
+Copyright (c) 2025 Dsnon
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
 
