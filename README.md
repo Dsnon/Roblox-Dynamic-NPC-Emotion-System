@@ -58,13 +58,5 @@ Copyright (c) 2025 Dsnon
 
 All Rights Reserved.
 
-Unauthorized copying, modification, distribution, or use of this software, in whole or in part, via any medium, is strictly prohibited without the express written permission of the author.
-
-Consequences of violating this license may include:
-
-- Removal of infringing content from platforms such as GitHub, Roblox, or other hosting services.
-- Requests to take down unauthorized copies or derivatives.
-- Reporting repeated or intentional violations to relevant platforms.
-- Possible civil liability under applicable copyright laws.
-
+You may view this code and use it, but claiming and modifying it as your own is strictly prohibited without written permission from the author.
 By accessing this repository, you acknowledge and agree to these terms.
