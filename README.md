@@ -56,9 +56,15 @@ Emotions automatically decay after a short delay.
 
 Copyright (c) 2025 Dsnon
 
-All rights reserved.
+All Rights Reserved.
 
-Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited without the express written permission of the author.
+Unauthorized copying, modification, distribution, or use of this software, in whole or in part, via any medium, is strictly prohibited without the express written permission of the author.
 
+Consequences of violating this license may include:
 
+- Removal of infringing content from platforms such as GitHub, Roblox, or other hosting services.
+- Requests to take down unauthorized copies or derivatives.
+- Reporting repeated or intentional violations to relevant platforms.
+- Possible civil liability under applicable copyright laws.
 
+By accessing this repository, you acknowledge and agree to these terms.
