@@ -14,13 +14,26 @@
 
 # Dynamic NPC Emotion System
 
-The **Dynamic NPC Emotion System** adds lifelike behavior to NPCs using:
-- Emotional states  
-- Personalities  
-- Mood memory  
-- Dynamic dialogue  
-- Small routines  
-- Client/server syncing  
+## 🧩 How It Works
+
+### 🔹 1. Player does an action  
+Jump, wave, run into NPC, explosions, etc.
+
+### 🔹 2. Server detects the action  
+EmotionSystem fires `UpdateEmotion`.
+
+### 🔹 3. Client shows UI updates  
+Dialogue + emotion bubble appears.
+
+### 🔹 4. Personality modifiers apply  
+Friendly NPCs react differently than Chaotic ones.
+
+### 🔹 5. Mood memory blends emotions  
+If you annoy an NPC too much…  
+they *stay annoyed* longer. 😉
+
+---
+
 
 It’s plug-and-play, easy to customize, and designed for ANY Roblox game.
 *Note: faces DO decay over time*The **Dynamic NPC Emotion System** adds lifelike behavior to NPCs using:
