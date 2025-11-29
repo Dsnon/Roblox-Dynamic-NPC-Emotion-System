@@ -34,7 +34,7 @@ they *stay annoyed* longer. 😉
 
 
 It’s plug-and-play, easy to customize, and designed for ANY Roblox game.
-*Note: faces DO decay over time*The **Dynamic NPC Emotion System** adds lifelike behavior to NPCs using:
+The **Dynamic NPC Emotion System** adds lifelike behavior to NPCs using:
 - Emotional states  
 - Personalities  
 - Mood memory  
@@ -93,8 +93,7 @@ Emotions automatically decay after a short delay.
 
 Includes:
 - Emotion blending  
-- Mood memory  
-- Automatic decay  
+- Mood memory 
 
 ---
 
