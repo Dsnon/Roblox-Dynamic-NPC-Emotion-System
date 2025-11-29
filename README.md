@@ -1,30 +1,57 @@
+<p align="center">
+  <img src="https://i.imgur.com/OPD0oJ5.png" width="120" alt="NPC Logo"><br>
+  <h1 align="center">Dynamic NPC Emotion System</h1>
+  <p align="center">A realistic, personality-driven NPC emotion framework for Roblox games.</p>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Engine-Roblox-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Language-Luau-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-2.0-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge">
+</p>
+
+---
+
 # Dynamic NPC Emotion System
 
-A lightweight Roblox system that gives NPCs dynamic emotions based on player actions.
-Emotions include:
-- Happy
-- Scared
-- Annoyed
-- Curious
+The **Dynamic NPC Emotion System** adds lifelike behavior to NPCs using:
+- Emotional states  
+- Personalities  
+- Mood memory  
+- Dynamic dialogue  
+- Small routines  
+- Client/server syncing  
 
-The NPC’s head UI updates automatically, and emotions decay over time.
+It’s plug-and-play, easy to customize, and designed for ANY Roblox game.
+*Note: faces DO decay over time*The **Dynamic NPC Emotion System** adds lifelike behavior to NPCs using:
+- Emotional states  
+- Personalities  
+- Mood memory  
+- Dynamic dialogue  
+- Small routines  
+- Client/server syncing  
+
+It’s plug-and-play, easy to customize, and designed for ANY Roblox game.
 
 ---
 
 ## 📥 Installation
 
-1. Put **EmotionSystem.server.lua** inside  
-   ➤ `ServerScriptService`
+1. Download or clone the repository.
+2. Drag scripts into the correct Roblox services:
 
-2. Put **EmotionModule.lua** and **EmotionEvents.lua** inside  
-   ➤ `ReplicatedStorage`
-
-3. Put **NPCEmotionClient.client.lua** inside  
-   ➤ `StarterPlayerScripts`
-
-4. Insert the NPC model from `npc_assets/ExampleNPC.rbxm` into your Workspace  
-   *(you can export any NPC and rename it to this)*
-
+| File | Location |
+|------|----------|
+| EmotionSystem.server.lua | ServerScriptService |
+| RoutineSystem.server.lua | ServerScriptService |
+| DialogueModule.lua | ServerScriptService |
+| EmotionModule.lua | ReplicatedStorage |
+| EmotionController.lua | ReplicatedStorage |
+| EmotionEvents.lua | ReplicatedStorage |
+| NPCConfig.lua | ReplicatedStorage |
+| NPCEmotionClient.client.lua | StarterPlayer → StarterPlayerScripts |
+| ExampleNPC.rbxm | Insert into Workspace |
 ---
 
 ## 🔧 How it Works
@@ -48,7 +75,50 @@ Emotions automatically decay after a short delay.
 - Easy to expand with more emotions  
 - Billboard UI updates above NPC heads  
 - Decay timers  
-- Server → client syncing  
+- Server → client syncing
+- NPCs feel emotions such as:
+-    😄 **Happy**
+-    😨 **Scared**
+-    😠 **Annoyed**
+-    🤔 **Curious**
+-    😐 **Neutral**
+
+Includes:
+- Emotion blending  
+- Mood memory  
+- Automatic decay  
+
+---
+
+### Personality System
+
+Each NPC can be:
+- **Calm** (hard to scare, rarely annoyed)  
+- **Friendly** (happier, social)  
+- **Chaotic** (reacts strongly to everything)
+
+You can add **unlimited custom personalities**
+
+---
+
+### 💬 Dialogue System
+NPCs speak based on their current emotion.
+
+Examples:
+- Happy → “Nice to see you!”  
+- Annoyed → “Can you not?”  
+- Scared → “What was THAT?!”  
+
+---
+
+### 🚶 Routine System
+NPCs perform small behaviors:
+- Wandering  
+- Random jumping  
+- Looking around  
+- Idle actions  
+
+This makes them feel alive.
 
 ---
 
