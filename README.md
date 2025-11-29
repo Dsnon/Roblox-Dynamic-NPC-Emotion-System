@@ -31,35 +31,48 @@ If you annoy an NPC too much…
 they *stay annoyed* longer. 😉
 
 ---
+The **Dynamic NPC Emotion + Conversation System** brings NPCs to life using:
 
-
-It’s plug-and-play, easy to customize, and designed for ANY Roblox game.
-The **Dynamic NPC Emotion System** adds lifelike behavior to NPCs using:
-- Emotional states  
-- Personalities  
-- Mood memory  
+- Emotional reactions  
+- Personality-based emotional weighting  
+- Mood memory & emotion blending  
 - Dynamic dialogue  
-- Small routines  
-- Client/server syncing  
+- NPC-to-NPC conversations  
+- Ambient movement routines  
+- Automatic reactions to player actions  
+- Explosion fear reactions  
+- Client UI for emotion bubbles and dialogue  
+
+NPCs no longer feel static — they react, talk, and behave like real characters.
 
 ---
 
 ## 📥 Installation
 
-1. Download or clone the repository.
-2. Drag scripts into the correct Roblox services:
 
-| File | Location |
-|------|----------|
+---
+
+# 🚀 Installation
+
+1. Clone or download the repository.  
+2. Place files in the correct Roblox services:
+
+| File | Roblox Location |
+|------|-----------------|
 | EmotionSystem.server.lua | ServerScriptService |
+| NPCConversationSystem.server.lua | ServerScriptService |
 | RoutineSystem.server.lua | ServerScriptService |
 | DialogueModule.lua | ServerScriptService |
 | EmotionModule.lua | ReplicatedStorage |
 | EmotionController.lua | ReplicatedStorage |
 | EmotionEvents.lua | ReplicatedStorage |
 | NPCConfig.lua | ReplicatedStorage |
-| NPCEmotionClient.client.lua | StarterPlayer → StarterPlayerScripts |
-| ExampleNPC.rbxm | Insert into Workspace |
+| NPCEmotionClient.client.lua | StarterPlayerScripts |
+| ExampleNPC.rbxm | Workspace |
+
+3. Put all NPCs inside a folder named: workspace.NPCs
+4. Run the game - NPCs will react, talk, and move automatically.
+
 ---
 
 ## 🔧 How it Works
@@ -93,7 +106,9 @@ Emotions automatically decay after a short delay.
 
 Includes:
 - Emotion blending  
-- Mood memory 
+- Mood memory
+- Personality modifiers
+- Server-driven emotional triggers 
 
 ---
 
@@ -105,6 +120,26 @@ Each NPC can be:
 - **Chaotic** (reacts strongly to everything)
 
 You can add **unlimited custom personalities**
+
+---
+
+## 🗣️ AI Conversation System (NEW!)
+NPCs now talk to each other naturally:
+
+✔️ Detect NPCs within 20 studs  
+✔️ Random conversation starters  
+✔️ Emotional-based dialogue  
+✔️ Personality-influenced responses  
+✔️ Back-and-forth conversations  
+✔️ Cooldowns to avoid spam  
+✔️ Uses the same dialogue bubble UI  
+
+Example:
+
+> NPC A (Happy): “Nice day out!”  
+> NPC B (Neutral): “Yeah, it's pretty nice.”  
+
+This makes your world feel **alive**.
 
 ---
 
@@ -126,6 +161,37 @@ NPCs perform small behaviors:
 - Idle actions  
 
 This makes them feel alive.
+
+---
+
+# 🗂️ Project Structure
+
+DynamicNPCEmotionSystem/
+│
+├── README.md
+├── LICENSE
+│
+├── src/
+│ ├── ServerScriptService/
+│ │ ├── EmotionSystem.server.lua
+│ │ ├── NPCConversationSystem.server.lua
+│ │ ├── RoutineSystem.server.lua
+│ │ └── DialogueModule.lua
+│ │
+│ ├── ReplicatedStorage/
+│ │ ├── EmotionModule.lua
+│ │ ├── EmotionController.lua
+│ │ ├── NPCConfig.lua
+│ │ └── EmotionEvents.lua
+│ │
+│ └── StarterPlayer/
+│ └── StarterPlayerScripts/
+│ └── NPCEmotionClient.client.lua
+│
+└── npc_assets/
+└── ExampleNPC.rbxm
+
+---
 
 ---
 
