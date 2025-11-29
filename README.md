@@ -42,8 +42,6 @@ It’s plug-and-play, easy to customize, and designed for ANY Roblox game.
 - Small routines  
 - Client/server syncing  
 
-It’s plug-and-play, easy to customize, and designed for ANY Roblox game.
-
 ---
 
 ## 📥 Installation
