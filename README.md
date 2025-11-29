@@ -12,8 +12,6 @@
 
 ---
 
-# Dynamic NPC Emotion System
-
 ## 🧩 How It Works
 
 ### 🔹 1. Player does an action  
