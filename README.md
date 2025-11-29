@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://i.imgur.com/OPD0oJ5.png" width="120" alt="NPC Logo"><br>
   <h1 align="center">Dynamic NPC Emotion System</h1>
   <p align="center">A realistic, personality-driven NPC emotion framework for Roblox games.</p>
 </p>
